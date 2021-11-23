@@ -65,19 +65,21 @@ section {
 
 /* Navigation Styles*/
 .navbar__menu ul {
+	padding:1%
     padding-left: 0;
     margin: 0;
-    text-align: right;
+    text-align: center;
 }
 
 .navbar__menu li {
-    display: inline-block;
+    display: inline-flex;
+	padding-left: 1%
+	 
 }
 
 .navbar__menu .menu__link {
-    display: block;
-    padding: 1em;
-    font-weight: bold;
+	display: inline-block;
+       font-weight: bold;
     text-decoration: none;
     color: #000;
 }
